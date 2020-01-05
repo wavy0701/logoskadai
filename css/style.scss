@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.inpage {
+  width: 100%;
+}
+
+#app{
+   h1 {
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+& li {
+  line-height: 1.5;
+}
+
+& input[type="text"] {
+  padding: 2px;
+}
+
+& .kansou{
+  height: 280px;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: left;
+
+}
+
+& ul {
+padding: 0;
+list-style: none;
+}
+
+& li > span.done {
+text-decoration: line-through;
+color: #bbb;
+}
+
+& h1 > button {
+float: right;
+}
+
+& form span {
+}
+
+}
+
+
+.command {
+  font-size: 12px;
+  cursor: pointer;
+  color: #08c;
+}
+
+
+.info {
+  color: #bbb;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#intro {
+  display: inline-flex;
+  width: 100%;
+
+  & span {
+    font-size: 20px;
+  }
+}
